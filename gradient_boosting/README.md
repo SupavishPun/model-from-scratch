@@ -15,7 +15,7 @@ Learn how gradient boosting works under the hood
    At each iteration:
 
    * **Calculate Pseudo-Residuals:** Compute the negative gradient of the loss function with respect to the current predictions.
-   $$ PseudoResiduals_i = - (predict_i - observe_i) = observe_i - predict_i $$
+      $$PseudoResiduals_i = - (predict_i - observe_i) = observe_i - predict_i$$
    
    * **Fit a New Tree:** Train a decision tree to predict these pseudo-residuals.
    * **Optimize Leaf Outputs:** Calculate the optimal output value for each leaf. For a second-order optimization, the leaf value is typically calculated as:
