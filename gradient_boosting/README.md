@@ -33,3 +33,6 @@ Learn how gradient boosting works under the hood
 
 3. **Repeat Until the Stopping Condition Is Met**  
    Continue adding trees until reaching the maximum number of iterations, or until another stopping condition such as early stopping is triggered.
+
+
+For more details, please go to [Gradient Boosting Math](math.md).
