@@ -54,3 +54,6 @@ Traditional GBM implementations generally require imputing missing values before
 For exact greedy split finding, every possible split point on every feature must be evaluated — expensive on large datasets. XGBoost introduces **a weighted quantile sketch algorithm** that proposes a small set of candidate split points (percentiles) per feature
 
 ### 5. Early stopping based on a validation metric, integrated directly into the training loop.
+
+
+For more details, please go to [Xgboost Math](math.md).
