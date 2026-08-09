@@ -23,4 +23,5 @@ LightGBM grows **leaf-wise**: at each step it finds the **single existing leaf w
 ## Advanced Topics
 - [Categorical Feature Support](categorical_split.md)
 - [Histogram-Based Algorithm](histrogram.md)
+- [L1 objective](l1_objective.md)
 - [Missing Value Handle](missing_value_handle.md)
